@@ -985,6 +985,24 @@ footer {
     border-color: transparent;
 }
 
+.calendar-embed {
+    margin-top: 26px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(44, 62, 80, 0.14);
+}
+
+.calendar-actions {
+    margin: 10px 0 14px;
+}
+
+.calendar-embed iframe {
+    width: 100%;
+    height: 560px;
+    border: 0;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.85);
+}
+
 .btn-link {
     display: inline-block;
     color: #667eea;
@@ -999,4 +1017,7 @@ footer {
 
 @media (max-width: 768px) {
     /* Responsive adjustments if needed */
+    .calendar-embed iframe {
+        height: 430px;
+    }
 }
