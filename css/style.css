@@ -132,6 +132,20 @@ header .container {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
+    flex-wrap: wrap;
+    /* Allow wrapping if title is too long */
+}
+
+main.container {
+    padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.2rem;
+        flex: 1;
+        min-width: 200px;
+    }
 }
 
 header h1 {
@@ -1023,34 +1037,14 @@ footer {
     }
 }
 
-/* Scroll Reveal Animations */
-.reveal {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-    visibility: hidden;
-}
 
-.reveal-left {
-    opacity: 0;
-    transform: translateX(-50px);
-    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-    visibility: hidden;
-}
-
+/* Content visibility ensuring no hidden elements */
+.reveal,
+.reveal-left,
 .reveal-right {
-    opacity: 0;
-    transform: translateX(50px);
-    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-    visibility: hidden;
-}
-
-.reveal.active,
-.reveal-left.active,
-.reveal-right.active {
-    opacity: 1;
-    transform: translate(0, 0);
-    visibility: visible;
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
 }
 
 /* Staggered delay for child elements if needed */
