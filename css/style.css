@@ -141,10 +141,15 @@ main.container {
 }
 
 @media (max-width: 768px) {
+    header .container {
+        padding: 10px 0;
+    }
+
     header h1 {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
+        /* Further reduced from 1.2rem */
         flex: 1;
-        min-width: 200px;
+        min-width: 150px;
     }
 }
 
