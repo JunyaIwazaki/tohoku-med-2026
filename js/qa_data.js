@@ -6,7 +6,7 @@ const qaData = [
   {
     id: "schedule_entrance",
     keywords: ["入学式", "いつ", "日程", "時間", "場所", "会場", "4月3日"],
-    answer: "入学式は **2026年4月3日（金）** に行われます。医学部医学科（学部）の式典は **9:45〜10:20** です。場所は **ゼビオアリーナ仙台** です。"
+    answer: "入学式は **2026年4月3日（金）** に行われます。医学部医学科（学部）の式典は **9:45〜10:20** です。場所は **ゼビオアリーナ仙台** です。<br><br><a href='https://www.tohoku.ac.jp/japanese/2026/01/event20260116-01-ceremony.html' target='_blank' class='btn-link'>大学公式の案内はこちら</a>"
   },
   {
     id: "schedule_orientation",

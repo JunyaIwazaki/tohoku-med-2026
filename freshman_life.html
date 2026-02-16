@@ -15,7 +15,12 @@
 <body>
     <header>
         <div class="container">
-            <nav id="header-nav">
+            <button class="hamburger-btn" type="button" aria-label="メニューを開閉" aria-expanded="false" aria-controls="site-nav">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="site-nav" id="site-nav">
                 <ul>
                     <li><a href="index.html">ホーム</a></li>
                     <li><a href="index.html#schedule">スケジュール</a></li>
@@ -135,6 +140,7 @@
     <footer>
         <p>&copy; 2026 東北大学医学部新入生交流会 (非公式)</p>
     </footer>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>

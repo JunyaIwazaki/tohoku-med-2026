@@ -17,7 +17,13 @@
     <header>
         <div class="container">
             <h1>東北大学医学部 <span class="highlight">2026</span></h1>
-            <nav>
+            <button class="hamburger-btn" type="button" aria-label="メニューを開閉" aria-expanded="false"
+                aria-controls="site-nav">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="site-nav" id="site-nav">
                 <ul>
                     <li><a href="#hero">ホーム</a></li>
                     <li><a href="#schedule">スケジュール</a></li>
@@ -50,29 +56,47 @@
                     <div class="content">
                         <h4>入学式</h4>
                         <p>場所：ゼビオアリーナ仙台<br>時間：9:45〜10:20</p>
+                        <a href="https://www.tohoku.ac.jp/japanese/2026/01/event20260116-01-ceremony.html"
+                            target="_blank" class="official-link">
+                            <i class="fas fa-external-link-alt"></i> 大学公式情報はこちら
+                        </a>
                     </div>
                 </li>
                 <li>
-                    <span class="date">2026.04.04 (予)</span>
+                    <span class="date">2026.04.03 (予)</span>
+                    <div class="content">
+                        <h4>入学者懇談会</h4>
+                        <p>場所：星陵オーディトリアム講堂<br>内容：医学部生活紹介、キャンパス見学など<br>時間：14:00〜</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="date">2026.04.06 (予)</span>
                     <div class="content">
                         <h4>医学科オリエンテーション</h4>
                         <p>場所：医学部6号館講堂<br>内容：抗体価検査、写真撮影など</p>
                     </div>
                 </li>
                 <li>
-                    <span class="date">2026.04.05 (予)</span>
+                    <span class="date">2026.04.07 (予)</span>
+                    <div class="content">
+                        <h4>ITオリエンテーション</h4>
+                        <p>場所：医学部6号館講堂<br>内容：東北大のITシステム全般の説明会</p>
+                    </div>
+                </li>
+                <!-- <li>
+                    <span class="date">2026.04.07 (予)</span>
                     <div class="content">
                         <h4>時間割決め大会（割決）</h4>
                         <p>場所：川内北キャンパス<br>先輩と一緒に時間割を組むイベント</p>
                     </div>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                     <span class="date">2026.04.06〜07 (予)</span>
                     <div class="content">
                         <h4>全学教育オリエンテーション</h4>
                         <p>場所：川内キャンパス<br>内容：履修登録説明など</p>
                     </div>
-                </li>
+                </li> -->
                 <li>
                     <span class="date">2026.04.08</span>
                     <div class="content">
@@ -81,7 +105,7 @@
                     </div>
                 </li>
                 <li>
-                    <span class="date">2026.04.21 (予)</span>
+                    <span class="date">2026.04.08 - 2026.04.21 (予)</span>
                     <div class="content">
                         <h4>履修登録期限</h4>
                         <p>Webでの登録締め切り</p>
@@ -215,6 +239,7 @@
     <script src="js/qa_data.js"></script>
     <script src="js/agent.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>

@@ -16,6 +16,24 @@
     <header>
         <div class="container">
             <h1><a href="index.html">東北大学医学部 2026</a> > 研究活動</h1>
+            <button class="hamburger-btn" type="button" aria-label="メニューを開閉" aria-expanded="false"
+                aria-controls="site-nav">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="site-nav" id="site-nav">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="index.html#schedule">スケジュール</a></li>
+                    <li><a href="index.html#curriculum">カリキュラム</a></li>
+                    <li><a href="freshman_life.html">学生生活</a></li>
+                    <li><a href="research.html">研究</a></li>
+                    <li><a href="pc_guide.html">PCガイド</a></li>
+                    <li><a href="course_guide.html">履修ガイド</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -39,7 +57,7 @@
 
             <h3><i class="fas fa-thumbs-up"></i> 研究室に通うメリット</h3>
             <div
-                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 20px 0;">
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin: 20px 0;">
                 <div class="faq-item"
                     style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.05) 100%);">
                     <div style="padding: 20px;">
@@ -88,19 +106,7 @@
                 <tbody>
                     <tr style="background: rgba(102, 126, 234, 0.05);">
                         <td style="padding: 12px; border-bottom: 1px solid #eee;"><strong>医学科</strong></td>
-                        <td style="padding: 12px; border-bottom: 1px solid #eee;">20人弱（C1クラス）</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 12px; border-bottom: 1px solid #eee;"><strong>看護学専攻</strong></td>
-                        <td style="padding: 12px; border-bottom: 1px solid #eee;">（データ募集中）</td>
-                    </tr>
-                    <tr style="background: rgba(102, 126, 234, 0.05);">
-                        <td style="padding: 12px; border-bottom: 1px solid #eee;"><strong>検査技術科学専攻</strong></td>
-                        <td style="padding: 12px; border-bottom: 1px solid #eee;">（データ募集中）</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 12px;"><strong>放射線技術科学専攻</strong></td>
-                        <td style="padding: 12px;">（データ募集中）</td>
+                        <td style="padding: 12px; border-bottom: 1px solid #eee;">20人弱（概算）</td>
                     </tr>
                 </tbody>
             </table>
@@ -160,36 +166,6 @@
                 </ul>
             </div>
 
-            <h3><i class="fas fa-lightbulb"></i> おすすめ研究プログラム</h3>
-
-            <div class="faq-item">
-                <summary><strong>ASU・未来医療人材寄付部門・CRIETO</strong></summary>
-                <div class="faq-content">
-                    <p><strong>活動内容</strong></p>
-                    <ul>
-                        <li>大学と企業の仲介をし、大学の技術をどのようにビジネスに変えていくかを研究する</li>
-                        <li>医療機器、体制の開発（起業された先輩もいます）</li>
-                        <li>有名な企業がたくさん！</li>
-                    </ul>
-
-                    <p><strong>どんな人にオススメ？</strong></p>
-                    <ul>
-                        <li>医療機器開発に興味がある人</li>
-                        <li>学部、学科を超えて交流を広げたい人</li>
-                        <li>人と話すことが好きな人</li>
-                        <li>学校でアルバイトしてみたい人</li>
-                    </ul>
-
-                    <p><strong>詳しくは...</strong></p>
-                    <ul>
-                        <li>ASU</li>
-                        <li>未来医療人材寄付部門</li>
-                        <li>CRIETO</li>
-                    </ul>
-                    <p>で検索！（Staff欄に顔写真付きで自己紹介載ってます！）</p>
-                </div>
-            </div>
-
             <div class="alert alert-success" style="margin-top: 30px;">
                 <p><strong><i class="fas fa-comments"></i> 質問・相談等</strong></p>
                 <p>研究活動について気になることがあれば、先輩や新入生交流会で気軽に質問してください！</p>
@@ -220,6 +196,7 @@
     <footer>
         <p>&copy; 2026 東北大学医学部新入生交流会 (非公式)</p>
     </footer>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>
